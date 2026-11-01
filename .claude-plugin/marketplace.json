@@ -1,0 +1,23 @@
+{
+  "name": "flight-rules",
+  "owner": {
+    "name": "shombith03"
+  },
+  "metadata": {
+    "description": "Claude Code skills written after something went wrong once, so nobody has to relearn it under pressure.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "flight-rules",
+      "description": "credit: attribute AI-authored commits to the humans who directed them. stage: commit only the files the task was meant to change.",
+      "source": "./",
+      "strict": false,
+      "license": "MIT",
+      "skills": [
+        "./credit",
+        "./stage"
+      ]
+    }
+  ]
+}
